@@ -17,8 +17,19 @@
     border: none;
     text-transform: capitalize;
     transition: all .2s linear;
+    
 }
-
+pre {
+    text-transform: none;
+    font-weight: 400;
+    background: #e2e1d9;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 50%;
+    padding: 1rem;
+    border: 1px solid #d7d6ce;
+}
 html {
     font-size: 62.5%;
     overflow-x: hidden;
@@ -141,6 +152,7 @@ header .icons #list-bar {
 
 .home .home-slider .slide .image img {
     width: 100%;
+    
 }
 
 .home .home-slider .slide .content span {
@@ -163,11 +175,19 @@ header .icons #list-bar {
 .swiper-pagination-bullet-active {
     background: var(--green);
 }
+.setup {
+    
+    font-size: 2.2rem;
+}
+.setup img {
+    height: 576px
+}
 
 .setup .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
-    gap: 1.5rem;
+    gap: .5rem;
+    
 }
 
 .setup .box-container .box {
@@ -299,7 +319,8 @@ header .icons #list-bar {
 .list .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: 1.5rem
+    gap: 1.5rem;
+    
 }
 
 .list .box-container .box {
@@ -310,7 +331,7 @@ header .icons #list-bar {
 }
 
 .list .box-container .box .image {
-    height: 25rem;
+    height: 35rem;
     width: 100%;
     padding: 1.5rem;
     overflow: hidden;
