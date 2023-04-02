@@ -77,23 +77,28 @@ section:nth-child(even) {
 }
 
 header {
+    position: fixed;    
     display: flex;
     align-items: center;
     height: 70px;
     box-shadow: var(--box-shadow);
+    width: 100%;
+    background: #fff;
+    z-index: 2;
 }
 
 header .logo {
     color: var(--black);
     font-size: 3.5rem;
     font-weight: bolder;
+    margin-left: 15%;
 }
 
 header .logo i {
     color: var(--green)
 }
 header .navbar {
-    padding-left: 35%;
+    padding-left: 15%;
 }
 header .navbar a {
     font-size: 1.7rem;
@@ -132,43 +137,50 @@ header .icons a:hover {
 header .icons #list-bar {
     display: none;
 }
+.home {
+    padding-top: 100px;
+}
+.home .home-slider .wrapper {
+    text-align: center;
 
+}
 
 .home .home-slider .slide {
     display: flex;
-    align-items: center;
+    
     flex-wrap: wrap;
     gap: 2rem;
     padding-top: 9rem;
+    
 }
 
-.home .home-slider .slide .content {
+.home .home-slider .content {
+    flex: 1 10 45rem;
+}
+
+.home .home-slider  .image {
     flex: 1 1 45rem;
 }
 
-.home .home-slider .slide .image {
-    flex: 1 1 45rem;
-}
-
-.home .home-slider .slide .image img {
+.home .home-slider  .image img {
     width: 100%;
     
 }
 
-.home .home-slider .slide .content span {
+.home .home-slider  .content span {
     color: var(--green);
     font-size: 2.5rem;
 }
 
-.home .home-slider .slide .content h3 {
+.home .home-slider .content h3 {
     color: var(--black);
     font-size: 7rem;
 }
 
-.home .home-slider .slide .content p {
+.home .home-slider .content p {
     color: var(--light-color);
     font-size: 2.2rem;
-    padding: .5rem 0;
+    padding: 1.5rem 0;
     line-height: 1.5;
 }
 
@@ -179,8 +191,12 @@ header .icons #list-bar {
     
     font-size: 2.2rem;
 }
+.setup_content {
+    margin-left: 20%;
+}
 .setup img {
-    height: 576px
+    height: 476px
+
 }
 
 .setup .box-container {
