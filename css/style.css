@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
 :root {
-    --green: #15ff00;
-    --black: #0a1020;
+    --green: #37df27;
+    --black: #000000;
     --light-color: #131313;
     --box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
 }
@@ -18,6 +18,11 @@
     text-transform: capitalize;
     transition: all .2s linear;
     
+}
+
+.background {
+    background-image: url("/images/margaret-jaszowska-MSGfvbuGZOE-unsplash.jpg");
+
 }
 pre {
     text-transform: none;
@@ -41,9 +46,9 @@ section {
     padding: 2rem 9%;
 }
 
-section:nth-child(even) {
+/* section:nth-child(even) {
     background: #eee;
-}
+} */
 
 .sub-heading {
     text-align: center;
@@ -421,7 +426,7 @@ header .icons #list-bar {
     border: .1rem solid rgba(0, 0, 0, .2);
     padding: 1.5rem;
     margin: 0 auto;
-    ;
+    background-color: rgba(0, 0, 0, .2);
 }
 
 .help form .inputBox {
